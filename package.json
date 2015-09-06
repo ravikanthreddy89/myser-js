@@ -1,0 +1,17 @@
+{
+  "name": "express-hello-world",
+  "version": "0.0.0",
+  "description": "Express starter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrnaught",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "jade": "~1.11.0",
+    "bootstrap": "~3.3.5",
+    "jQuery": "~1.7.4"
+  }
+}
