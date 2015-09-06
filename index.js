@@ -51,17 +51,17 @@ app.get('/getToken', function(req, res){
      res.end();
 
      var postData =  querystring.stringify({
-	       'client_id' :  5443,
-	       'client_secret' : 'lvZynfQ5J3N)sVeL*2n5NQ((',
-	       'code' : req.query.code,
-	       'redirect_uri' : 'http://myser.ravikanth.me/home'
+	       client_id :  5443,
+	       client_secret : 'lvZynfQ5J3N)sVeL*2n5NQ((',
+	       code : req.query.code,
+	       redirect_uri : 'http://myser.ravikanth.me/home'
 
      });
 
      var options = {
 	     host : 'https://stackexchange.com',
 	     path : '/oauth/access_token',
-             method : 'POST',
+         method : 'POST',
 	     headers : {
                   'Content-Type': 'application/x-www-form-urlencoded',
                   'Content-Length': postData.length	     
